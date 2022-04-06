@@ -1,0 +1,87 @@
+.google_button{
+  padding:1rem 1.5rem;
+  font-size:1rem;
+  background-color:#D5463A;
+  outline:none;
+  border:none;
+  cursor:pointer;
+  color:white;
+  margin-top:1.5rem;
+}
+.google_button:hover{
+  background-color: #f44336;
+}
+.main_section{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:auto;
+  height:500px;
+}
+.main_heading{
+  font-size:1.2rem;
+}
+
+
+.search_book{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.input_field{
+  padding:0.6rem;
+  font-size:1rem;
+  outline:none;
+}
+.input_section{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.input_save_btn{
+  padding:0.6rem;
+  font-size:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
