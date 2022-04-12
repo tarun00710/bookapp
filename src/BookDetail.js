@@ -6,8 +6,7 @@ const BookDetail = () => {
 
     const {searchResult : books} = useContext(bookContext)
     const {id} = useParams()
-    console.log(books)
-    console.log(typeof id)
+    
     const filterBook = books.filter((book) => {
         return (book.id === id)
       

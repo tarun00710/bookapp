@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useContext, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
@@ -14,7 +13,7 @@ function App() {
   useEffect(()=>{
     const getUserData = () =>{
     
-        fetch("http://localhost:5000/auth/login/success",{
+        fetch("http://bookapp-env.eba-hbgxrjud.us-east-1.elasticbeanstalk.com/auth/login/success",{
           method:"GET",
           credentials:'include',
           headers:{

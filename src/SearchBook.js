@@ -5,7 +5,7 @@ import { bookContext } from "./context/BookCon";
 const SearchBook = () => {
   const { setSearch, searchHandler} = useContext(bookContext);
   const logout = () => {
-    window.open("http://localhost:5000/auth/logout", "_self");
+    window.open("http://bookapp-env.eba-hbgxrjud.us-east-1.elasticbeanstalk.com/auth/logout", "_self");
   };
 
   return (

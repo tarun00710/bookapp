@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   const google = () => {
     console.log("i was clciked")
-    window.open("http://localhost:5000/auth/google", "_self");
+    window.open("http://bookapp-env.eba-hbgxrjud.us-east-1.elasticbeanstalk.com/auth/google", "_self");
   };
 
   return (
