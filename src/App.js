@@ -32,7 +32,7 @@ function App() {
       })
     }
     getUserData()
-  },[])
+  },[setUserId])
     
 
 
