@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import BookDetail from "./Components/BookDetail";
-import { bookContext } from "./Context/BookCon";
+import { bookContext } from "./context/BookCon";
 import Home from "./Components/Home";
 import SearchBook from "./Components/SearchBook";
 

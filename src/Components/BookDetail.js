@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
-import { bookContext } from '../Context/BookCon'
+import { bookContext } from '../context/BookCon'
 
 const BookDetail = () => {
 

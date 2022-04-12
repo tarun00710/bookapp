@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { bookContext } from "../Context/BookCon";
+import { bookContext } from "../context/BookCon";
 
 const SearchResult = () => {
   const {searchResult : books} = useContext(bookContext)

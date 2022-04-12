@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import SearchResult from "./SearchResult";
-import { bookContext } from "../Context/BookCon";
+import { bookContext } from "../context/BookCon";
 
 const SearchBook = () => {
   const { setSearch, searchHandler} = useContext(bookContext);
