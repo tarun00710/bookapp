@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import SearchResult from "./SearchResult";
-import { bookContext } from "./context/BookCon";
+import { bookContext } from "../Context/BookCon";
 
 const SearchBook = () => {
   const { setSearch, searchHandler} = useContext(bookContext);
@@ -13,12 +13,13 @@ const SearchBook = () => {
       <div className="search_top">
         <p className="search_heading">SearchBook</p>
         <button className="logout" onClick={logout}>
-          logout
+          Logout
         </button>
       </div>
 
       <div className="input_section">
         <input
+        placeholder="type and press enter..."
           onChange={(e) => setSearch(e.target.value)}
           className="input_field"
           onKeyPress={(e) => searchHandler(e)}

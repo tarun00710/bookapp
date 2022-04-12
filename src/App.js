@@ -1,10 +1,10 @@
 import { useContext, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import BookDetail from "./BookDetail";
-import { bookContext } from "./context/BookCon";
-import Home from "./Home";
-import SearchBook from "./SearchBook";
+import BookDetail from "./Components/BookDetail";
+import { bookContext } from "./Context/BookCon";
+import Home from "./Components/Home";
+import SearchBook from "./Components/SearchBook";
 
 function App() {
 
