@@ -18,6 +18,7 @@ const BookCon = ({ children }) => {
         setSearchResult(response.data.items);
         const {_id} = userId
         const saveSearch = await axios.post(`http://bookapp-env.eba-hbgxrjud.us-east-1.elasticbeanstalk.com/user/${_id}/saveSearch`,{search,userId})
+         console.log(saveSearch) 
       }
     } catch (error) {
       console.log(error.message);
